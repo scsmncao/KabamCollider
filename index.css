@@ -1,0 +1,36 @@
+.form-group {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+#USD {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#countries {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.calculate {
+	width: 100px;
+	border: 1px solid;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.calculate:hover {
+	color: white;
+	background-color: black;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.country-price {
+	text-align: center;
+	margin-top: 20px;
+}
