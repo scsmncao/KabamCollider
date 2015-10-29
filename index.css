@@ -34,3 +34,26 @@
 	text-align: center;
 	margin-top: 20px;
 }
+
+.see-all {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.see-all:hover {
+	cursor: pointer;
+}
+
+.see-percentage {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.see-percentage:hover {
+	cursor:pointer;
+}
+
+.result {
+	text-align:center;
+}
