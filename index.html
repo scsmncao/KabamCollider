@@ -4,13 +4,14 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="index.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script src="index.js"></script>
 	</head>
 	<body>
 		<div class="usd">
 			<div class="form-group">
-			    <label for="USD">USD</label>
-			    <input type="text" class="form-control" id="USD" placeholder="Enter USD amount">
+			    <label for="USD">Units</label>
+			    <input type="text" class="form-control" id="USD" placeholder="Enter the amount of Units">
 			  </div>
 		</div>
 		<div class="select-country">
@@ -24,12 +25,17 @@
 			Calculate
 		</div>
 		<div class="see-all">
-			See All
+			See All Country Conversions
 		</div>
 		<div class="see-percentage">
 			See Pecentage Spent on Entertainment
 		</div>
+		<div class="see-chart">
+			See Chart Comparing PPP to Big Mac Index
+		</div>
 		<div class="result">
+		</div>
+		<div class="chart" id="chart">
 		</div>
 	</body>
 </html>
